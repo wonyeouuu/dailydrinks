@@ -42,3 +42,25 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# dailydrinks
+
+This app is built with _create-react-app_ with _typescript_ enabled.
+
+It's implemented without any routing mechanism so all functions it provides are in the same page.
+
+Basically, it can
+
+[x] C: create an order with basic validation implemented
+
+[x] R: list all orders with simple `ul > li` DOM structure (order item rendering logic is implemented with _render props_ so you can change its shape whatever you like)
+
+[x] U: edit an order with basic validation implemented
+
+[x] D: delete an order
+
+## other features
+- _tslint_ and _prettier_ are integrated for easy code formatting and linting
+- _antd_ UI framework for quick bootstrapping
+- minimum CSS integrated in order to (and just in order to) make this app work
+
