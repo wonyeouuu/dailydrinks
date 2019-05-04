@@ -3,7 +3,7 @@ import { Button } from 'antd';
 import 'antd/dist/antd.css';
 import './App.css';
 import orderReducer from './store/reducer';
-import { TOrder, TActionType } from './types/Order';
+import { TOrder, TActionType, IActionParamsMap } from './types/Order';
 import OrderList from './components/OrderList';
 import OrderForm from './components/OrderForm';
 
@@ -11,7 +11,7 @@ export const OrderContext = createContext<{
   orders: TOrder[];
   dispatch: React.Dispatch<{
     type: TActionType;
-    params: number | TOrder | { index: number; order: TOrder };
+    params: IActionParamsMap[TActionType];
   }>;
 } | null>(null);
 
