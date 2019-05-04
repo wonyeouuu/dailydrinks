@@ -1,7 +1,7 @@
 import React, { useReducer, createContext, useState } from 'react';
 import { Button } from 'antd';
-import './App.css';
 import 'antd/dist/antd.css';
+import './App.css';
 import orderReducer from './store/reducer';
 import { TOrder, TActionType } from './types/Order';
 import OrderList from './components/OrderList';
