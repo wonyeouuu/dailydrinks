@@ -51,13 +51,13 @@ It's implemented without any routing mechanism so all functions it provides are 
 
 Basically, it can
 
-[x] C: create an order with basic validation implemented
+- [x] C: create an order with basic validation implemented
 
-[x] R: list all orders with simple `ul > li` DOM structure (order item rendering logic is implemented with _render props_ so you can change its shape whatever you like)
+- [x] R: list all orders with simple `ul > li` DOM structure (order item rendering logic is implemented with _render props_ so you can change its shape whatever you like)
 
-[x] U: edit an order with basic validation implemented
+- [x] U: edit an order with basic validation implemented
 
-[x] D: delete an order
+- [x] D: delete an order
 
 ## other features
 - _tslint_ and _prettier_ are integrated for easy code formatting and linting
